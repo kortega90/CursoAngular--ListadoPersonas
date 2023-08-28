@@ -1,9 +1,8 @@
-export class Persona {
-  nombre?: string = '';
-  apellido?: string = '';
+export class Persona{
 
-  constructor(nome?: string, sobrenome?: string) {
-    this.nombre = nome;
-    this.apellido = sobrenome;
-  }
+    constructor(public nombre:string, public apellido:string){}
+
+    toString(): string {
+        return this.nombre + " " + this.apellido; 
+    }
 }

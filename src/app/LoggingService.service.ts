@@ -1,6 +1,5 @@
 export class LoggingService{
-
-     enviaMensajeAConsola(menj:string){
-        console.log(menj)
-     }
+    enviaMensajeAConsola(mensaje:string){
+        console.log(mensaje);
+    }
 }
